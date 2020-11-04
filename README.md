@@ -5,7 +5,7 @@ A simple webpage containing my resume.
 
 - Basic HTML Tags
   - p
-  - ol
+  - ul and li
   - table
   - button
   - b
