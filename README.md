@@ -11,6 +11,8 @@ A simple webpage containing my resume.
   - b
   - a
   - heading tags (h1, h2)
+  - fieldset
+  - meta tags
 - Semantic UI Elements
   - nav
   - header
@@ -18,6 +20,9 @@ A simple webpage containing my resume.
   - section
   - div
   - footer
+- In page Navigation
+- Downloadable PDF Link using a tag and download attribute
+- Favicon 
   
 ## HTML Version
 `HTML 5`
