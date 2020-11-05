@@ -11,7 +11,7 @@ A simple webpage containing my resume.
   - b
   - a
   - heading tags (h1, h2)
- - Semantic UI Elements
+- Semantic UI Elements
   - nav
   - header
   - main
