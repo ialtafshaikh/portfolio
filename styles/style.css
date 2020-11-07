@@ -34,7 +34,7 @@ body{
 }
 
 .navigation-container a:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid red;
 }
 
 .navigation-container .active{
@@ -107,7 +107,7 @@ body{
 }
 
 .arrow a{
-    color: white;
+    color: rgb(226, 79, 79);
   text-decoration: none;
 }
 
