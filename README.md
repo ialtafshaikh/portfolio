@@ -29,6 +29,10 @@ A simple webpage containing my resume.
 ## Flex BOX (to create Layouts)
 - Flex Container
 - Flex items
+
+## External Libraries
+- Fontawesome for icons
+- google fonts
   
 ## HTML Version
 `HTML 5`
