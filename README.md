@@ -22,7 +22,17 @@ A simple webpage containing my resume.
   - footer
 - In page Navigation
 - Downloadable PDF Link using a tag and download attribute
-- Favicon 
+- Favicon
+- Implemented Navigation using flexbox
+- Added Header using Flex box and Backgroud image
+
+## Flex BOX (to create Layouts)
+- Flex Container
+- Flex items
+
+## External Libraries
+- Fontawesome for icons
+- google fonts
   
 ## HTML Version
 `HTML 5`
