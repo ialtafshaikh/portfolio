@@ -54,7 +54,7 @@ body {
 }
 
 /* hamburger */
-#ham{
+#ham {
   width: 45px;
   height: 38px;
   position: relative;
@@ -62,12 +62,12 @@ body {
   margin-top: 5px;
   /* margin-right: 20px; */
   transform: rotate(0deg);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
   display: none;
 }
 
-#ham span{
+#ham span {
   display: block;
   position: absolute;
   height: 3px;
@@ -76,14 +76,15 @@ body {
   border-radius: 9px;
   opacity: 1;
   left: 0;
-  transition: .25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 #ham span:nth-child(1) {
   top: 5px;
 }
 
-#ham span:nth-child(2),#ham span:nth-child(3) {
+#ham span:nth-child(2),
+#ham span:nth-child(3) {
   top: 18px;
 }
 
@@ -102,7 +103,6 @@ body {
 }
 
 #ham:hover span:nth-child(3) {
-
   transform: rotate(-45deg);
 }
 
@@ -140,23 +140,22 @@ body {
   font-size: 2vw;
 }
 
-.banner a{
+.banner a {
   text-decoration: none;
   color: white;
   padding: 15px 40px;
   background-color: #ca5d5d;
   box-shadow: 0 7px #bd0000;
-  border-radius: 4px;  
+  border-radius: 4px;
   display: inline-block;
   opacity: 0.8;
   cursor: pointer;
-  
 }
 
-.banner a:active{
-    position: relative;
-    top: 7px;
-    box-shadow: none;
+.banner a:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 .about {
@@ -191,26 +190,26 @@ body {
   padding-right: 40px;
 }
 
-.about-content .fa-angle-right, .about-education .fa-angle-right {
+.about-content .fa-angle-right,
+.about-education .fa-angle-right {
   font-weight: 900;
   color: red;
 }
 
-.about-education .content{
+.about-education .content {
   width: 60%;
   /* padding-left: 50px; */
 }
 
-.about-education{
+.about-education {
   margin-left: 50px;
 }
 
-
-.internship-container{
+.internship-container {
   padding: 0 12px;
 }
 
-.internship-container .internships{
+.internship-container .internships {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -229,19 +228,16 @@ body {
   box-shadow: 8px 8px 16px 0 rgba(255, 79, 79, 0.2);
 }
 
-
 .internship-container .card .card-content {
   padding: 2px 16px;
 }
 
-.card .line{
+.card .line {
   border-bottom: 1px solid red;
   margin: 2px 0;
 }
 
-
-
-footer{
+footer {
   background-color: black;
   color: white;
   height: 20vh;
@@ -252,92 +248,81 @@ footer{
   flex-wrap: wrap;
 }
 
-footer .social-links a{
+footer .social-links a {
   text-decoration: none;
   color: white;
   padding: 5px;
 }
-.copy span{
+.copy span {
   color: #f13311;
 }
-
 
 /* MEDIA QUERIES */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
-
-  .banner p{
+  .banner p {
     font-size: 5vw !important;
   }
 
   .about-container {
     display: block;
-  } 
- 
-  .about-content{
+  }
+
+  .about-content {
     padding-left: 10vw;
   }
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-  .navigation-container ul{
+@media (max-width: 767.98px) {
+  .navigation-container ul {
     display: none !important;
   }
-  #ham{
+  #ham {
     display: block;
   }
-  .banner-heading{
+  .banner-heading {
     font-size: 8vw !important;
   }
 
-  .banner p{
+  .banner p {
     font-size: 3vw;
     text-align: center;
   }
 
-  .about{
+  .about {
     height: 100%;
   }
- 
-  .about-education .content{
+
+  .about-education .content {
     width: 80%;
   }
 
-  .about-education{
+  .about-education {
     margin-left: 10vw;
   }
   .about-container {
     flex-wrap: wrap;
-  } 
-  .internship-container .internships{
+  }
+  .internship-container .internships {
     display: block;
   }
-
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-
-
-
+@media (max-width: 991.98px) {
   .about-content {
     padding-right: 0px;
-}
-.card {
-    
-  width: 85%;
-}
-
+  }
+  .card {
+    width: 85%;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
   .card {
-    
     width: 75%;
   }
-  
 }
