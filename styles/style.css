@@ -183,11 +183,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .about-content {
-  align-self: center;
   margin-right: 60px;
   padding-right: 40px;
 }
@@ -273,15 +272,13 @@ footer .social-links a{
     font-size: 5vw !important;
   }
 
-  .social-icons{
-    margin-top: 6%;
+  .about-container {
+    display: block;
   } 
-  
-  .about-image img {
-    width: 28vw !important;
+ 
+  .about-content{
+    padding-left: 10vw;
   }
-
-
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -304,23 +301,36 @@ footer .social-links a{
   .about{
     height: 100%;
   }
-  .about-content p{
-    margin: 2px auto;
-    padding-left: 32px;
+ 
+  .about-education .content{
+    width: 80%;
   }
-  .about-content .title{
-    text-align: center;
+
+  .about-education{
+    margin-left: 10vw;
   }
+  .about-container {
+    flex-wrap: wrap;
+  } 
 
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
 
+
+
+  .about-content {
+    padding-right: 0px;
+}
+
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-
+  .about-education{
+    /* margin: 0;
+    padding: 0; */
+  }
   
 }
