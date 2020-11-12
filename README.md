@@ -25,10 +25,14 @@ A simple webpage containing my resume.
 - Favicon
 - Implemented Navigation using flexbox
 - Added Header using Flex box and Backgroud image
+- 3D effect button
 
 ## Flex BOX (to create Layouts)
 - Flex Container
 - Flex items
+
+## CSS Grids
+- used to layout cards
 
 ## External Libraries
 - Fontawesome for icons
