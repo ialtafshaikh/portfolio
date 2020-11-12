@@ -312,6 +312,9 @@ footer .social-links a{
   .about-container {
     flex-wrap: wrap;
   } 
+  .internship-container .internships{
+    display: block;
+  }
 
 }
 
@@ -323,14 +326,18 @@ footer .social-links a{
   .about-content {
     padding-right: 0px;
 }
+.card {
+    
+  width: 85%;
+}
 
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-  .about-education{
-    /* margin: 0;
-    padding: 0; */
+  .card {
+    
+    width: 75%;
   }
   
 }
