@@ -38,4 +38,4 @@ A simple webpage containing my resume.
 `HTML 5`
 
 ## Repo is Hosted Live Here:
-[Link to the live Portfolio](https://ialtafshaikh.github.io/portfolio/)
+[Link to the live Portfolio](https://ialtafshaikh.github.io/profile-page/)
