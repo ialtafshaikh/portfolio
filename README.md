@@ -31,6 +31,16 @@ A simple webpage containing my resume.
 - Flex Container
 - Flex items
 
+## CSS Transition and Animation
+
+## Psudo Selectors
+- :hover
+- :focus
+- :after
+
+## Media Queries
+To make the website Mobile Responsive
+
 ## CSS Grids
 - used to layout cards
 
