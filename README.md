@@ -31,6 +31,16 @@ A simple webpage containing my resume.
 - Flex Container
 - Flex items
 
+## CSS Transition and Animation
+
+## Psudo Selectors
+- :hover
+- :focus
+- :after
+
+## Media Queries
+To make the website Mobile Responsive
+
 ## CSS Grids
 - used to layout cards
 
@@ -43,3 +53,11 @@ A simple webpage containing my resume.
 
 ## Repo is Hosted Live Here:
 [Link to the live Portfolio](https://ialtafshaikh.github.io/profile-page/)
+
+## Download the Project
+To download the project enter the below command in your terminal or inside git-bash terminal if you are windows and using git bash  
+
+```
+git clone https://github.com/ialtafshaikh/profile-page.git
+
+```
